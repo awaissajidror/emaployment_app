@@ -6,19 +6,20 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
+  * 3.1.2
 
+* Rails version
+  * 7.0
+  
 * System dependencies
+  * None
 
-* Configuration
-
-* Database creation
-
-* Database initialization
+* Run Application
+  * Need to setup database.yml in config directory with mysql2 adapter
+  * rails db:create
+  * rails db:migrate
 
 * How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+  * bundle exec rspec ./spec/requests/homes_spec.rb
 
 * ...
