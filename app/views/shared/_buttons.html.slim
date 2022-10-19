@@ -1,0 +1,5 @@
+.mt-8.flex.justify-center
+  .inline-flex.rounded-md.shadow
+    = link_to 'Personal Data', new_user_path, class: 'inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700', data: { turbo_frame: 'remote_modal' }
+  .ml-3.inline-flex
+    = link_to 'Employment', new_employment_path, class: 'inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700', data: { turbo_frame: 'remote_modal' }

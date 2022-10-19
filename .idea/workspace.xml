@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d021faac-9075-4406-8f6b-98c0771dc4a8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/_flash.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/employments/_form.html.slim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/homes_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/homes_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/employments/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/employments/close_modal.turbo_stream.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/employments/close_modal.turbo_stream.slim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/employments/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/employments/new.html.slim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/homes/_eployment_data_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/homes/_eployment_data_form.html.slim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/homes/_user_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/homes/_user_form.html.slim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/homes/_users_button.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/homes/_users_button.html.slim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/homes/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/homes/index.html.slim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shared/_buttons.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_buttons.html.slim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shared/_modal.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_modal.html.slim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/_form.html.slim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/new.html.slim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/open_second_form.turbo_stream.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/open_second_form.turbo_stream.slim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/requests/homes_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/requests/users_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/requests/users_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/views/homes/index.html.erb_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/views/homes/index.html.slim_spec.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

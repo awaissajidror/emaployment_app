@@ -1,0 +1,49 @@
+.employment-modal.relative.z-10.hidden[aria-labelledby="modal-title" role="dialog" aria-modal="true"]
+  .fixed.inset-0.bg-gray-500.bg-opacity-75.transition-opacity
+  .fixed.inset-0.z-10.overflow-y-auto
+    .flex.min-h-full.items-end.justify-center.p-4.text-center.sm:items-center.sm:p-0
+      .relative.transform.overflow-hidden.rounded-lg.bg-white.px-4.pt-5.pb-4.text-left.shadow-xl.transition-all.sm:my-8.sm:w-full.sm:max-w-lg.sm:p-6
+        form[role="form" action="/create/employment" method="post"]
+          div
+            .mt-3.text-center.sm:mt-5
+              h3#modal-title.text-lg.font-bold.leading-6.text-gray-900
+                | Create Employment
+              .mt-2
+                div
+                  label.block.text-sm.font-bold.text-gray-700.text-left[for="email"]
+                    | Employer
+                  .relative.mt-1.rounded-md.shadow-sm
+                    label[for="Employer"]
+                    input#Employer.block.w-full.rounded-md.border-red-300.pr-10.text-red-900.placeholder-red-300.focus:border-red-500.focus:outline-none.focus:ring-red-500.sm:text-sm[type="text" name="employment[employer]" placeholder="Employer" value="" aria-invalid="true" aria-describedby="email-error"]
+                      .pointer-events-none.absolute.inset-y-0.right-0.flex.items-center.pr-3
+                        svg.h-5.w-5.text-red-500.hidden.EmployerError[xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" fill="currentColor" aria-hidden="true"]
+                          path[fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-5a.75.75 0 01.75.75v4.5a.75.75 0 01-1.5 0v-4.5A.75.75 0 0110 5zm0 10a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"]
+                      p.mt-2.text-sm.text-red-600.hidden.EmployerError
+                        | Your password must be less than 4 characters.
+                      .mt-3
+                        label.block.text-sm.font-bold.text-gray-700.text-left[for="email"]
+                          | Date Started
+                        .relative.mt-1.rounded-md.shadow-sm
+                          label[for="DateStarted"]
+                          input#DateStarted.block.w-full.rounded-md.border-red-300.pr-10.text-red-900.placeholder-red-300.focus:border-red-500.focus:outline-none.focus:ring-red-500.sm:text-sm[type="date" name="employment[date_started]" placeholder="Date Started" value="" aria-invalid="true" aria-describedby="email-error"]
+                            .pointer-events-none.absolute.inset-y-0.right-0.flex.items-center.pr-3
+                              svg.h-5.w-5.text-red-500.hidden.DateStartedError[xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" fill="currentColor" aria-hidden="true"]
+                                path[fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-5a.75.75 0 01.75.75v4.5a.75.75 0 01-1.5 0v-4.5A.75.75 0 0110 5zm0 10a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"]
+                            p.mt-2.text-sm.text-red-600.hidden.DateStartedError
+                              | Your password must be less than 4 characters.
+                            .mt-3
+                              label.block.text-sm.font-bold.text-gray-700.text-left[for="email"]
+                                | Date Employment Ended
+                              .relative.mt-1.rounded-md.shadow-sm
+                                label[for="DateEnded"]
+                                input#DateEnded.block.w-full.rounded-md.border-red-300.pr-10.text-red-900.placeholder-red-300.focus:border-red-500.focus:outline-none.focus:ring-red-500.sm:text-sm[type="date" name="employment[date_employment_ended]" placeholder="Date Ended" value="" aria-invalid="true" aria-describedby="email-error"]
+                                  .pointer-events-none.absolute.inset-y-0.right-0.flex.items-center.pr-3
+                                    svg.h-5.w-5.text-red-500.hidden.DateEndedError[xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" fill="currentColor" aria-hidden="true"]
+                                      path[fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-5a.75.75 0 01.75.75v4.5a.75.75 0 01-1.5 0v-4.5A.75.75 0 0110 5zm0 10a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"]
+                                  p.mt-2.text-sm.text-red-600.hidden.DateEndedError
+                                    | Your password must be less than 4 characters.
+                                  .mt-5.sm:mt-6.sm:grid.sm:grid-flow-row-dense.sm:grid-cols-2.sm:gap-3
+                                    button.inline-flex.w-full.justify-center.rounded-md.border.border-transparent.bg-indigo-600.px-4.py-2.text-base.font-medium.text-white.shadow-sm.hover:bg-indigo-700.focus:outline-none.focus:ring-2.focus:ring-indigo-500.focus:ring-offset-2.sm:col-start-2.sm:text-sm[type="submit"]
+                                      | Save
+                                      button.mt-3.inline-flex.w-full.justify-center.rounded-md.border.border-gray-300.bg-white.px-4.py-2.text-base.font-medium.text-gray-700.shadow-sm.hover:bg-gray-50.focus:outline-none.focus:ring-2.focus:ring-indigo-500.focus:ring-offset-2.sm:col-start-1.sm:mt-0.sm:text-sm.close-employment-button[type="button"]
+                                        | Cancel
