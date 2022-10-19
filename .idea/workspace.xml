@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d021faac-9075-4406-8f6b-98c0771dc4a8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/employments/close_modal.turbo_stream.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/employments/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/homes/_users_button.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/shared/_buttons.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/employment_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/employment_app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/homes_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/homes_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/personal_data.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/homes/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/homes/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/importmap.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/importmap.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +36,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Project.color": "412e1e",
+    "Ruby.ViewRefParam.DefaultExtension": "html.erb",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -31,6 +45,12 @@
     "ruby.rails.projectView.checked": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views" />
+      <recent name="$PROJECT_DIR$/app/views/users" />
+    </key>
+  </component>
   <component name="RunManager" selected="Rails.Development: employment_app">
     <configuration name="Development: employment_app" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="employment_app" />
@@ -140,6 +160,8 @@
       <option name="presentableId" value="Default" />
       <updated>1665769830954</updated>
       <workItem from="1665769832926" duration="23860000" />
+      <workItem from="1666180053665" duration="2594000" />
+      <workItem from="1666198160836" duration="13521000" />
     </task>
     <servers />
   </component>
